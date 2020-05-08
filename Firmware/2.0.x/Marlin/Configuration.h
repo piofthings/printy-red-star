@@ -483,10 +483,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Lmystar
-  #define DEFAULT_Kp 20.0
-  #define DEFAULT_Ki 1.00
-  #define DEFAULT_Kd 95
+  // Lmystar E3D V6
+  #define DEFAULT_Kp 21.63
+  #define DEFAULT_Ki 1.77
+  #define DEFAULT_Kd 66.02
 
   // Ultimaker
   // #define DEFAULT_Kp 22.2
@@ -1912,7 +1912,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
@@ -1932,7 +1932,7 @@
 // MakerLab Mini Panel with graphic
 // controller and SD support - http://reprap.org/wiki/Mini_panel
 //
-#define MINIPANEL
+// #define MINIPANEL
 
 //
 // MaKr3d Makr-Panel with graphic controller and SD support.

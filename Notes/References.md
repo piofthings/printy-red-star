@@ -1,3 +1,14 @@
 Crosslink video : How to setup Platform IO with Atom (slightly dated) https://www.youtube.com/watch?v=RbbzsJBpEhc
 
-/Users/sumitkm/myprojects/github/piofthings/printy-red-star/.DS_Store
+Tom's 3D : How to auto tune PID https://toms3d.org/2014/04/01/3d-printing-guides-using-marlins-pid-autotune/
+
+Run command following command to set PID
+
+```
+# For hotend
+M303 S260 C10
+```
+```
+# For Heated bed
+M303 E-1 S70 C10
+```
