@@ -653,25 +653,29 @@
 
     #elif ENABLED(MINIPANEL)
 
-      #define BEEPER_PIN                      42
+      #define BEEPER_PIN                      37  // SKM Original 42
       // not connected to a pin
-      #define LCD_BACKLIGHT_PIN               65  // backlight LED on A11/D65
+      #define LCD_BACKLIGHT_PIN               27  // SKM Original 65  // backlight LED on A11/D65
 
-      #define DOGLCD_A0                       44
-      #define DOGLCD_CS                       66
+      #define DOGLCD_A0                       16  // SKM Original 44
+      #define DOGLCD_CS                       17  // SKM Orignal 66
 
+      #define LCD_RESET_PIN                   23  // SKM Originally was not present in this section 
+
+      #define LCD_CONTRAST                   255  // SKM Orginally was not present in this section
       // GLCD features
       // Uncomment screen orientation
       //#define LCD_SCREEN_ROT_90
       //#define LCD_SCREEN_ROT_180
       //#define LCD_SCREEN_ROT_270
 
-      #define BTN_EN1                         40
-      #define BTN_EN2                         63
-      #define BTN_ENC                         59
+      #define BTN_EN1                         31 // SKM Original 40
+      #define BTN_EN2                         33 // SKM Original 63
+      #define BTN_ENC                         35 // SKM Original 59
+
 
       #define SD_DETECT_PIN                   49
-      #define KILL_PIN                        64
+      #define KILL_PIN                        -1 // SKM Original 64
 
     #elif ENABLED(ZONESTAR_LCD)
 
