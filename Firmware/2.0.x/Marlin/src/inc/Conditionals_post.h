@@ -2051,7 +2051,7 @@
     #define Z_CLEARANCE_MULTI_PROBE Z_CLEARANCE_BETWEEN_PROBES
   #endif
   #if ENABLED(BLTOUCH) && !defined(BLTOUCH_DELAY)
-    #define BLTOUCH_DELAY 500
+    #define BLTOUCH_DELAY 200
   #endif
 #endif
 
