@@ -19,3 +19,5 @@ M303 E-1 S70 C10
 Status of Endstops
 
 M119
+
+3DMN - How to determine Z Endstop offset https://www.youtube.com/watch?v=y_1Kg45APko
