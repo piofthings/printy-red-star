@@ -32,9 +32,8 @@ M119
 - Mount the SD Card (on the BTT board)
     - `sudo mount /dev/sda1 /mnt`
 - Copy the firmware to the SD Card in the BTT board
-    - `sudo cp .pio/build/STM32F103RC_btt_512K/firmware.bin /mnt`
+    - `sudo cp ./firmware.bin /mnt`
 - Unmount the SD Card as USB device from the Pi
     - `sudo umount /mnt`
 
 - After this, reset the BTT Board either by pressing the reset button (this may cause issues with OctoPrint) the safest way possible. In my setup where OctoPrint controls power to the BTT board, switch the Power Off and the back On.
-- Also log out of the ssh session and reboot the Pi via OctoPrint for good measure. Things got a bit messy if staying connected to Pi.
